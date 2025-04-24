@@ -4,8 +4,10 @@ int main() {
 
 
 
-    std::string name = "aman";
-    std::cout << name;
+    const double PI = 3.1415;
+    int rad = 10;
+    double circumference = PI * rad * rad;
+    std::cout << circumference << "cm";
 
 
 
