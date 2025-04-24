@@ -9,8 +9,8 @@ int main() {
     multiline
     comment*/
 
-    int x;
-    x = 5;
+    int x; //Declaration
+    x = 5; //Assignment
 
     std::cout << "I love pizza!" << "\n";
     std::cout << "I also love dosa!" << "\n";
