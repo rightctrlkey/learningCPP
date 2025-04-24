@@ -4,8 +4,8 @@ int main() {
 
 
 
-    char grade = 'A';
-    std::cout << grade;
+    std::string name = "aman";
+    std::cout << name;
 
 
 
