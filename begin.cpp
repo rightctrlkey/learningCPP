@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 namespace first{
     int x = 5;
@@ -11,9 +12,9 @@ namespace second{
 int main() {
 
     int x = 15;
-    std::cout << x << "\n";
-    std::cout << first::x << "\n";
-    std::cout << second::x << "\n";
+    cout << x << "\n";
+    cout << first::x << "\n";
+    cout << second::x << "\n";
 
 
     return 0;
