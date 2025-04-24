@@ -2,10 +2,10 @@
 
 int main() {
 
-    
-    double price = 10.99;
-    std::cout << price << "\n";
 
+
+    char grade = 'A';
+    std::cout << grade;
 
 
 
