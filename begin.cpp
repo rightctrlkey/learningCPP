@@ -11,10 +11,42 @@ namespace second{
 
 int main() {
 
-    int x = 15;
-    cout << x << "\n";
-    cout << first::x << "\n";
-    cout << second::x << "\n";
+    int students = 20;
+
+    // students = students + 1;
+    // cout << students;
+    // students += 1;
+    // cout << students;
+    // students++;
+    // cout << students;
+
+    // students = students - 1;
+    // cout << students;
+    // students -= 1;
+    // cout << students;
+    // students--;
+    // cout << students;
+
+    // students = students * 2;
+    // cout << students;
+    // students *= 2;
+    // cout << students;
+
+    // students = students / 2;
+    // cout << students;
+    // students/=2;
+    // cout << students;
+
+    // int remainder = students % 3;
+    // cout << remainder;
+
+    //ORDER OF PRECEDENCE
+    //(parenthesis)
+    //multiplication and devision
+    //addition and substraction
+
+    
+
 
 
     return 0;
