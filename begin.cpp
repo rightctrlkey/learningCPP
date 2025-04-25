@@ -10,9 +10,17 @@ int main() {
     cout << "Enter your age: ";
     cin >> age;
 
-    if (age >= 18) {
+    if(age >= 100) {
+        cout << "You are too old to vote!";
+    }
+    else if (age >= 18) {
         cout << "You can vote!";
-    } else {
+    } 
+    else if(age < 0) {
+        cout << "You aren't born yet!";
+    }
+    
+    else {
         cout << "You cannot vote!";
     }
 
