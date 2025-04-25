@@ -13,10 +13,12 @@ int main() {
 
     string name;
     int age;
-    cout << "Enter Your full name: ";
-    getline(cin, name);
     cout << "Enter Your age: ";
     cin >> age;
+    cin.ignore();
+    cout << "Enter Your full name: ";
+    getline(cin, name);
+    
 
     cout << "Hello " << name << '\n';
     cout << "You are " << age << " years old";
