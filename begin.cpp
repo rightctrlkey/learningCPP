@@ -5,17 +5,16 @@ using namespace std;
 
 int main() {
 
-    double a;
-    double b;
-    double c;
+    int age;
 
-    cout << "Enter a value: ";
-    cin >> a;
-    cout << "Enter b value: ";
-    cin >> b;
-    c = sqrt(a*a + b*b);
-    cout << c;
+    cout << "Enter your age: ";
+    cin >> age;
 
+    if (age >= 18) {
+        cout << "You can vote!";
+    } else {
+        cout << "You cannot vote!";
+    }
 
     return 0;
 }
