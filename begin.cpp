@@ -11,41 +11,15 @@ namespace second{
 
 int main() {
 
-    int students = 20;
+    string name;
+    int age;
+    cout << "Enter Your full name: ";
+    getline(cin, name);
+    cout << "Enter Your age: ";
+    cin >> age;
 
-    // students = students + 1;
-    // cout << students;
-    // students += 1;
-    // cout << students;
-    // students++;
-    // cout << students;
-
-    // students = students - 1;
-    // cout << students;
-    // students -= 1;
-    // cout << students;
-    // students--;
-    // cout << students;
-
-    // students = students * 2;
-    // cout << students;
-    // students *= 2;
-    // cout << students;
-
-    // students = students / 2;
-    // cout << students;
-    // students/=2;
-    // cout << students;
-
-    // int remainder = students % 3;
-    // cout << remainder;
-
-    //ORDER OF PRECEDENCE
-    //(parenthesis)
-    //multiplication and devision
-    //addition and substraction
-
-    
+    cout << "Hello " << name << '\n';
+    cout << "You are " << age << " years old";
 
 
 
