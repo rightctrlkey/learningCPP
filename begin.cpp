@@ -32,11 +32,10 @@ int main() {
     } else if(op == '/') {
         result = a / b;
         cout << a << op << b << "=" << result << endl;
-
+    } else {
+        cout << "That wasn't a valid response.";
     }
-
-
-
-
+    
+    
     cout << "************************************";
 }
