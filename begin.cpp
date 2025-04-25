@@ -1,28 +1,20 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-namespace first{
-    int x = 5;
-}
-
-namespace second{
-    int x = 10;
-}
 
 int main() {
 
-    string name;
-    int age;
-    cout << "Enter Your age: ";
-    cin >> age;
-    cin.ignore();
-    cout << "Enter Your full name: ";
-    getline(cin, name);
-    
+    double a;
+    double b;
+    double c;
 
-    cout << "Hello " << name << '\n';
-    cout << "You are " << age << " years old";
-
+    cout << "Enter a value: ";
+    cin >> a;
+    cout << "Enter b value: ";
+    cin >> b;
+    c = sqrt(a*a + b*b);
+    cout << c;
 
 
     return 0;
