@@ -9,11 +9,8 @@ int main() {
     cout << "Enter your name: ";
     getline(cin, name);
     
-    if (name.empty()) {
-        cout << "You didnt enter your name.";
-    } else {
-        cout << "Hello " << name;
-    }
+    name.clear();
 
+    cout << "Hello " << name;
     return 0;
 }
