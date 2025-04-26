@@ -6,6 +6,7 @@ using namespace std;
 int main() {
 
     int temp;
+    bool sunny = true;
 
     cout << "Enter the temperature: ";
     cin >> temp;
@@ -15,6 +16,12 @@ int main() {
     }
     else {
         cout << "The temperature is good.";
+    }
+
+    if (!sunny) {
+        cout << "It is sunny outside";
+    } else {
+        cout << "It is cloudy outside";
     }
     return 0;
 }
