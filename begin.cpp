@@ -9,6 +9,10 @@ int main() {
     cout << "Enter your name: ";
     getline(cin, name);
 
-    cout << name.at(1);
+
+    name.insert(0, "@");
+
+
+    cout << name;
     return 0;
 }
