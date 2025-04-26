@@ -10,9 +10,9 @@ int main() {
     getline(cin, name);
 
 
-    cout << name.find(" ");
+    name.erase(0, 1);
 
-
+    cout << name;
     
     return 0;
 }
