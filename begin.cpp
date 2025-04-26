@@ -22,6 +22,8 @@ int main() {
         cout << "Enter the temp in Celcius: ";
         cin >> temp;
         cout << (1.8 * temp) + 32 << "F" << "\n";
+    } else {
+        cout << "Please enter in only C or F.";
     }
 
     cout << "*************************************";
