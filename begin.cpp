@@ -5,23 +5,28 @@ using namespace std;
 
 int main() {
 
-    int temp;
-    bool sunny = true;
+    double temp;
+    char unit;
 
-    cout << "Enter the temperature: ";
-    cin >> temp;
+    cout << "*******temperature conversion********\n";
 
-    if(temp <=0 || temp >=30) {
-        cout << "The temperature is bad.";
-    }
-    else {
-        cout << "The temperature is good.";
+    cout << "C = Celcius\n";
+    cout << "F = Farenheit\n";
+    cout << "Enter the unit you want the temperature converted to: ";
+    cin >> unit;
+    if (unit == 'C' || unit == 'c') {
+        cout << "Enter the temp in Fahrenheit: ";
+        cin >> temp;
+        cout << (temp - 32) / 1.8 << "C"<< "\n";
+    } else if (unit == 'F' || unit == 'f') {
+        cout << "Enter the temp in Celcius: ";
+        cin >> temp;
+        cout << (1.8 * temp) + 32 << "F" << "\n";
     }
 
-    if (!sunny) {
-        cout << "It is sunny outside";
-    } else {
-        cout << "It is cloudy outside";
-    }
+    cout << "*************************************";
+
+    
+
     return 0;
 }
