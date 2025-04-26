@@ -9,8 +9,8 @@ int main() {
     cout << "Enter your name: ";
     getline(cin, name);
     
-    name.clear();
+    name.append("@gmail.com");
 
-    cout << "Hello " << name;
+    cout << "Your username is now " << name;
     return 0;
 }
