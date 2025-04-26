@@ -10,9 +10,9 @@ int main() {
     getline(cin, name);
 
 
-    name.insert(0, "@");
+    cout << name.find(" ");
 
 
-    cout << name;
+    
     return 0;
 }
