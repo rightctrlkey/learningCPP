@@ -10,11 +10,11 @@ int main() {
     cout << "Enter the temperature: ";
     cin >> temp;
 
-    if(temp > 0 && temp < 30) {
-        cout << "The temperature is good.";
+    if(temp <=0 || temp >=30) {
+        cout << "The temperature is bad.";
     }
     else {
-        cout << "The temperature is bad.";
+        cout << "The temperature is good.";
     }
     return 0;
 }
