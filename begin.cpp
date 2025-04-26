@@ -9,10 +9,10 @@ int main() {
     cout << "Enter your name: ";
     getline(cin, name);
     
-    if (name.length() > 12) {
-        cout << "Your name cant be more than 12 characters!";
+    if (name.empty()) {
+        cout << "You didnt enter your name.";
     } else {
-        cout << "Welcome!!!";
+        cout << "Hello " << name;
     }
 
     return 0;
