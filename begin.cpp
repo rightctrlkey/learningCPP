@@ -5,11 +5,16 @@ using namespace std;
 
 int main() {
 
-    int a;
-    cout << "enter a value: ";
-    cin >> a;
+    int temp;
 
-    a > 0 ? cout << "number is positive!" : cout << "Number is negative!";
-    
+    cout << "Enter the temperature: ";
+    cin >> temp;
+
+    if(temp > 0 && temp < 30) {
+        cout << "The temperature is good.";
+    }
+    else {
+        cout << "The temperature is bad.";
+    }
     return 0;
 }
