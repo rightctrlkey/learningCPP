@@ -1,26 +1,20 @@
 #include <iostream>
 using namespace std;
 
-double square(double length);
-double cube(double length);
+string concatString(string string1, string string2);
 
 int main() {
 
-    double length = 3.0;
-    double area = square(length);
-    double volume = cube(length);
 
-    cout << "The area is: " << area << "cm^2\n";
-    cout << "The volume is: " << volume << "cm^3\n";
+    string firstName = "Aman";
+    string lastName = "Gupta";
+    string fullname = concatString(firstName, lastName);
+    cout << "Hello " << fullname;
+
 
     return 0;
 }
 
-double square(double length){
-
-    return length * length;
-}
-double cube(double length){
-
-    return length * length * length;
+string concatString(string string1, string string2) {
+    return string1 + ' ' + string2;
 }
