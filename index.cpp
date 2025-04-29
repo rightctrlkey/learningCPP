@@ -5,14 +5,8 @@ using namespace std;
 
 int main() {
 
-    int number;
-
-    do{
-        cout << "Enter a positive number: ";
-        cin >> number;
-    } while(number < 0);
-    cout << "The number is: " << number;
-
-
+    for (int i = 1; i <= 10; i++){
+        cout << i*4 << endl;
+    }
     return 0;
 }
