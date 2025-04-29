@@ -4,14 +4,17 @@
 using namespace std;
 
 
-void HappyBirthday(){
-    cout << "HAPPY BIRTHDAY TO YOU!!\n";
-    cout << "HAPPY BIRTHDAY TO YOU!!\n";
-    cout << "HAPPY BIRTHDAY TO YOU!!\n";
+
+void HappyBirthday(string name){
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "HAPPY BIRTHDAY TO " << name;
 }
 
 int main() {
 
-    HappyBirthday();
+    string name = "aman";
+    HappyBirthday(name);
+    
     return 0;
 }
