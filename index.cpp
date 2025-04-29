@@ -1,20 +1,19 @@
 #include <iostream>
-#include <cmath>
-#include <ctime>
 using namespace std;
 
-
-
-void HappyBirthday(string name){
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "HAPPY BIRTHDAY TO " << name;
-}
+double square(double length);
 
 int main() {
 
-    string name = "aman";
-    HappyBirthday(name);
-    
+    double length = 6.0;
+    double area = square(length);
+
+    cout << "The area is: " << area << "cm^2";
+
     return 0;
+}
+
+double square(double length){
+
+    return length * length;
 }
