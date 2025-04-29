@@ -5,13 +5,14 @@ using namespace std;
 
 int main() {
 
-    string name;
-    
-    while(name.empty()) {
-        cout << "Enter you name: ";
-        getline(cin, name);
-    }
+    int number;
 
-    cout << "Hello " << name;
+    do{
+        cout << "Enter a positive number: ";
+        cin >> number;
+    } while(number < 0);
+    cout << "The number is: " << number;
+
+
     return 0;
 }
