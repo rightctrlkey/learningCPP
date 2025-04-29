@@ -1,26 +1,19 @@
 #include <iostream>
 #include <cmath>
+#include <ctime>
 using namespace std;
 
 
 int main() {
 
-    int rows;
-    int columns;
-    char symbol;
-    cout << "Enter the number of rows: ";
-    cin >> rows;
-    cout << "Enter the number of columns: ";
-    cin >> columns;
-    cout << "Enter the character: ";
-    cin >> symbol;
-    
-    for (int i = 1; i <= rows; i++){
-        for (int j = 1; j <= columns; j++) {
-            cout << symbol << ' ';
-        }
-        cout << '\n';
-    }
+    srand(time(NULL));
+
+    int num1 = (rand() % 6) + 1;
+    int num2 = (rand() % 6) + 1;
+    int num3 = (rand() % 6) + 1;
+    cout << num1 << '\n';
+    cout << num2 << '\n';
+    cout << num3 << '\n';
     
     return 0;
 }
